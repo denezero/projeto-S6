@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Anunciar</title>
+</head>
+<body>
+
+    <main> 
+        <div class="container-anuncio">
+        <button onclick="mostrarBotoes" style="visibility: visible; background-color: green; color: yellow; border-color: black; border-radius: 5px;" id="anuncioBtn">Anunciar</button>
+        
+        <button id="produtoBtn" style="visibility: hidden; background-color: #008000; color: yellow; border-color: black; border-radius: 5px;"><a href="aProduto.html">Produto</a></button>
+        <button id="servicoBtn" style="visibility: hidden; background-color: green; color: yellow; border-color: black; border-radius: 5px;"><a href="aServico.html">Serviço</a></button>
+        <script>
+            var produto = document.getElementById("produtoBtn");
+            var servico = document.getElementById("servicoBtn");
+            var anuncio = document.getElementById("anuncioBtn");
+
+            anuncio.addEventListener("click", trocar);
+
+            function trocar(){
+                anuncio.style.visibility="hidden"
+                servico.style.visibility="visible"
+                produto.style.visibility="visible"
+            }
+        </script>
+        </div>
+    
+
+        
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: rgb(72, 255, 0);
+}
+
+/*Barra de navegação e usuario do lado esquerdo*/
+.nav-left {
+    display: flex; 
+}
+.block {
+    display: block;
+}
+.home{
+    display: block;
+    width: 82%;
+}
+.page-direct{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6%;
+    margin: 0 2%;
+    width: 96%;
+    color: white;
+    background-color: black;
+    border: 4px solid black;
+}
+/*bloco da imgame*/
+.description{ 
+    display: flex;
+    height: 5vw;
+    padding: 5%;
+    min-width: 18vw;
+    background-color: rgb(231, 231, 20);
+}
+.block > h1{
+    font-size: 3vw;
+}
+/*formato da imagem*/
+.imgem{
+    height: 3.5vw;
+    border-radius:60%;
+}
+
+/*navegação de objetos*/ 
+
+.navegation{
+    min-width: 19vw;
+    
+}
+.navegation > a{
+    background-color: black;
+    display: flex;
+    border: 10px solid black;
+    font-size: 2vw;
+    padding: 6% 0 6% 20%;
+    text-decoration: none;
+    color: white;
+}
+.navegation > a:hover{
+    background-color: aliceblue;
+    transition: 100ms;
+    color: black;
+    
+   
+}
+.mapa{
+    width: 96%;
+    height: 255px;
+    margin: 0 2%;
+    padding: 0;
+    
+}
+
+
+/*Barra de navegação*/
+
+.principal-corpo {
+    padding: 5% 10%;
+    color:white;
+    margin: 2%;
+    background-color: black;
+}
+
+.principal-corpo > h1{
+    margin: 2%;
+    text-align: center;
+}
+/* conteudo principal*/
+
+.rodap{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
